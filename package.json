@@ -14,7 +14,7 @@
       "output": "dist"
     },
     "win": {
-      "target": "nsis",
+      "target": "portable",
       "icon": "TemplateData/favicon.ico"
     },
     "nsis": {
