@@ -5,17 +5,21 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build:win": "electron-builder --win --publish never"
+    "build:win": "electron-builder --win --publish never",
+    "build:mac": "electron-builder --mac --publish never"
   },
   "build": {
     "appId": "com.nomadgames.readysetbet",
-    "productName": "Ready Set Bet",
+    "productName": "Ready Set Bet Companion",
     "directories": {
       "output": "dist"
     },
     "win": {
       "target": "portable",
       "icon": "TemplateData/favicon.ico"
+    },
+    "mac": {
+      "target": "dmg"
     },
     "nsis": {
       "oneClick": false,
