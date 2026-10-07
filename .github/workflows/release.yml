@@ -23,7 +23,9 @@ jobs:
       with:
         tag_name: latest
         name: Latest Build
-        files: dist/*.exe
+        files: |
+          dist/*.exe
+          dist/*.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

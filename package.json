@@ -15,7 +15,7 @@
       "output": "dist"
     },
     "win": {
-      "target": "portable",
+      "target": "zip",
       "icon": "TemplateData/favicon.ico"
     },
     "mac": {
