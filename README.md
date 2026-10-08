@@ -1,39 +1,64 @@
-# Ready Set Bet Companion (오프라인 패키지)
+# Ready Set Bet Companion - Offline Archive
 
-이 폴더는 인터넷 연결 없이도 Ready Set Bet 컴패니언 앱을 실행할 수 있도록 구성된 오프라인 전용 패키지입니다.
-Electron과 같은 무거운 런타임 없이, 이미 설치된 Chrome이나 Edge 브라우저를 활용하여 구동 속도를 극대화했습니다.
+[🇰🇷 한국어 설명은 아래에 있습니다](#-한국어-설명-korean)
 
-## 파일 구조
-```
-  index.html
-  Build/
-  TemplateData/
-  server.ps1 (Windows용 로컬 서버 모듈)
-  play.bat / play-server.bat (Windows 실행)
-  play.command / play-server.command (macOS 실행)
-```
+## 📦 About This Project
+This repository is an **offline archive** of the official [Ready Set Bet Companion App](https://nomadgames.co.uk/readysetbet). 
+As web-based apps can be taken down or become inaccessible over time, this package is designed to preserve the functionality of the application completely offline, requiring no internet connection or installation.
 
-## Windows 사용 방법
-1. **`play.bat`** 파일을 더블 클릭하여 실행합니다.
-2. 만약 검은 화면만 뜨거나 정상적으로 로딩되지 않는다면, **`play-server.bat`**을 대신 실행해 보세요.
-  * `play-server.bat`은 내부적으로 `server.ps1`을 호출하여 빈 포트(8000~8010)를 자동으로 찾아 로컬 서버를 열어줍니다. 서버는 게임을 끄면 깔끔하게 같이 종료됩니다.
+## ⚖️ Copyright Disclaimer
+**This is NOT a fan-made application.** 
+All assets, source code, designs, and audio files belong exclusively to **Alderac Entertainment Group (AEG)** and **Nomad Games**.
+This repository was created strictly for **archival, preservation, and personal offline use**. It is not intended for commercial distribution. If you are the copyright holder and wish for this archive to be removed, please open an issue and it will be taken down immediately.
 
-## macOS 사용 방법
-1. **`play.command`** 파일을 우클릭하고 **'열기'**를 클릭하여 실행합니다. (보안 경고 시 다시 '열기' 클릭)
-2. 만약 검은 화면만 뜨거나 정상적으로 로딩되지 않는다면, **`play-server.command`**를 대신 실행해 보세요.
-  * `play-server.command`는 Mac에 내장된 Python3나 Ruby 중 존재하는 것을 감지하여 빈 포트(8000~8010)를 찾아 로컬 서버를 열어줍니다. 게임을 끄면 서버 프로세스도 안전하게 종료됩니다.
+## 🚀 How to Run (Windows)
+1. Download the language package of your choice from the **Releases** tab and extract the ZIP file.
+2. Double-click **`play.bat`** to run the app.
+3. *Troubleshooting*: If you experience missing sound or audio issues, try right-clicking `play.bat` and selecting **"Run as Administrator"**. Some browsers block local audio playback due to strict security policies, which administrator privileges can bypass.
 
-> **참고 1**: macOS 터미널에서 권한 거부(Permission Denied) 에러가 발생할 경우, 터미널을 열고 아래 명령어를 입력해 실행 권한을 부여하세요.
-> ```bash
-> chmod +x play.command play-server.command
-> ```
-> **참고 2**: 다운로드 받은 파일이라 macOS 환경에서 '실행할 수 없음' 또는 손상 오류로 차단되는 경우, 터미널에서 다음 명령어로 격리 속성(Quarantine)을 완전히 해제할 수 있습니다.
-> ```bash
-> xattr -dr com.apple.quarantine "/현재/폴더/경로"
-> ```
+## 🍎 How to Run (macOS)
+1. Download the language package of your choice from the **Releases** tab and extract the ZIP file.
+2. Right-click **`play.command`** and select **"Open"**.
+3. *Troubleshooting*: If you encounter a "Permission Denied" error, open your Terminal and run the following command to grant execution rights:
+   ```bash
+   chmod +x play.command
+   ```
+   If macOS blocks the app as "damaged" or "cannot be opened", use this command to clear the quarantine flag:
+   ```bash
+   xattr -dr com.apple.quarantine "/path/to/extracted/folder"
+   ```
 
-## 주의 사항
-- 실행 시 폴더 안에 `browser-profile` 이라는 폴더가 생성됩니다. 이는 게임 진행 상황(IndexedDB 캐시 등)이 저장되는 전용 장소입니다. 이 폴더를 지우면 진행 상황이 초기화되니 주의하세요.
-- 이 패키지는 오프라인(로컬 파일) 상태로 동작합니다. 따라서 네트워크가 차단된 상태에서도 실행이 가능합니다.
-- 처음 실행 시에는 파일(`.wasm` 등)을 읽고 파싱하느라 시간이 약간 소요될 수 있으나, 두 번째 실행부터는 `browser-profile`에 캐시가 저장되어 훨씬 빠르게 로딩됩니다.
-- 본 프로그램은 팬메이드 목적으로 원본 소스를 패키징한 것이며, 모든 저작권은 **AEG** 및 **Nomad Games**에 있습니다.
+## ⚠️ Notes
+- A `browser-profile` folder will be created automatically when you run the app. This is where your game settings and offline cache are saved. Do not delete this folder unless you want to reset your data.
+
+---
+
+# 🇰🇷 한국어 설명 (Korean)
+
+## 📦 프로젝트 소개
+이 저장소는 [Ready Set Bet 컴패니언 앱](https://nomadgames.co.uk/readysetbet)의 **공식 웹 버전을 보존하기 위한 오프라인 아카이브**입니다. (팬메이드 앱이 아닙니다.)
+웹 기반 애플리케이션은 서버가 종료되거나 인터넷이 없는 환경에서는 사용할 수 없게 되는 문제가 있어, 어떠한 설치나 인터넷 연결 없이도 영구적으로 구동할 수 있도록 보존 패키지로 구성되었습니다.
+
+## ⚖️ 저작권 및 면책 조항
+본 패키지에 포함된 모든 그래픽 에셋, 소스 코드, 디자인, 오디오 파일의 저작권은 **Alderac Entertainment Group (AEG)** 및 **Nomad Games**에 귀속됩니다. 
+이 저장소는 상업적 목적이 전혀 없으며, 오로지 **개인적인 오프라인 사용 및 아카이브(보존) 목적**으로만 제작되었습니다. 원 저작권자가 삭제를 요청할 경우 즉각 조치하겠습니다.
+
+## 🚀 Windows 사용 방법
+1. **Releases** 탭에서 원하시는 언어의 압축 파일을 다운로드 후 압축을 풉니다.
+2. 폴더 내의 **`play.bat`** 파일을 더블클릭하여 실행합니다.
+3. *문제 해결*: 만약 화면은 잘 나오는데 **소리가 들리지 않는다면**, `play.bat` 파일을 우클릭하여 **'관리자 권한으로 실행'**해 보세요. 크롬이나 엣지 등 브라우저의 로컬 파일 보안 정책으로 인해 소리가 차단되는 현상을 해결할 수 있습니다.
+
+## 🍎 macOS 사용 방법
+1. **Releases** 탭에서 원하시는 언어의 압축 파일을 다운로드 후 압축을 풉니다.
+2. **`play.command`** 파일을 우클릭하고 **'열기'**를 클릭하여 실행합니다. (보안 경고가 나타나면 다시 '열기'를 클릭하세요.)
+3. *문제 해결*: 터미널에서 권한 거부(Permission Denied) 에러가 발생할 경우, 터미널을 열고 아래 명령어를 입력해 실행 권한을 부여하세요.
+   ```bash
+   chmod +x play.command
+   ```
+   만약 macOS 보안에 의해 파일이 손상되었다며 실행이 차단되는 경우, 터미널에서 아래 명령어로 격리 속성(Quarantine)을 해제할 수 있습니다.
+   ```bash
+   xattr -dr com.apple.quarantine "/압축을/푼/폴더/경로"
+   ```
+
+## ⚠️ 주의 사항
+- 실행 시 폴더 안에 `browser-profile` 이라는 폴더가 생성됩니다. 이곳에 게임 설정 데이터나 캐시가 저장되므로, 진행 상황을 초기화하려는 게 아니라면 이 폴더를 삭제하지 마세요.
