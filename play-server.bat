@@ -1,4 +1,11 @@
 @echo off
+if "%~1"=="hidden" goto :main
+if exist "%temp%\hidden.vbs" del "%temp%\hidden.vbs"
+echo CreateObject("WScript.Shell").Run """" ^& WScript.Arguments(0) ^& """ hidden", 0, False > "%temp%\hidden.vbs"
+wscript "%temp%\hidden.vbs" "%~f0"
+exit /b
+
+:main
 set "DIR=%~dp0"
 set "PROFILE_DIR=%DIR%browser-profile"
 cd /d "%DIR%"
@@ -14,15 +21,10 @@ if exist "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" (
     set "CHROME_PATH=C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 )
 
-if "%CHROME_PATH%"=="" (
-    echo Chrome or Edge not found! Please install Microsoft Edge or Google Chrome.
-    pause
-    exit /b
-)
+if "%CHROME_PATH%"=="" exit /b
 
 if exist "%DIR%server.info" del "%DIR%server.info"
 
-echo Starting local server using PowerShell...
 start /B /MIN powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File "%DIR%server.ps1"
 
 set WAIT_COUNT=0
@@ -30,11 +32,7 @@ set WAIT_COUNT=0
 if exist "%DIR%server.info" goto read_info
 timeout /t 1 >nul
 set /a WAIT_COUNT+=1
-if %WAIT_COUNT% geq 10 (
-    echo Server did not start in time.
-    pause
-    exit /b
-)
+if %WAIT_COUNT% geq 30 exit /b
 goto wait_loop
 
 :read_info
