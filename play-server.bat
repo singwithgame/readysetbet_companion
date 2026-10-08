@@ -41,7 +41,7 @@ goto wait_loop
     set /p SERVER_PORT=
 )
 
-"%CHROME_PATH%" --app="http://localhost:%SERVER_PORT%/index.html" --user-data-dir="%PROFILE_DIR%" --ignore-gpu-blocklist --enable-gpu-rasterization
+"%CHROME_PATH%" --app="http://127.0.0.1:%SERVER_PORT%/index.html" --user-data-dir="%PROFILE_DIR%" --ignore-gpu-blocklist --enable-gpu-rasterization
 
 taskkill /F /PID %SERVER_PID% /T >nul 2>&1
 if exist "%DIR%server.info" del "%DIR%server.info"

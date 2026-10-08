@@ -8,17 +8,18 @@ $listener = $null
 while ($port -le 8010) {
     try {
         $listener = New-Object System.Net.HttpListener
-        $listener.Prefixes.Add("http://localhost:$port/")
+        $listener.Prefixes.Add("http://127.0.0.1:$port/")
         $listener.Start()
         break
     } catch {
+        $_ | Out-File -FilePath (Join-Path $RootFolder "server_error.log") -Append
         $listener = $null
         $port++
     }
 }
 
 if ($listener -eq $null) {
-    Write-Error "Could not bind to any port between 8000 and 8010."
+    "Failed to bind to any port." | Out-File -FilePath (Join-Path $RootFolder "server_error.log") -Append
     exit 1
 }
 
