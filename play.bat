@@ -20,4 +20,5 @@ if "%CHROME_PATH%"=="" (
     exit /b
 )
 
-"%CHROME_PATH%" --app="%INDEX_URL%" --allow-file-access-from-files --user-data-dir="%PROFILE_DIR%" --ignore-gpu-blocklist --enable-gpu-rasterization
+start "" "%CHROME_PATH%" --app="%INDEX_URL%" --allow-file-access-from-files --user-data-dir="%PROFILE_DIR%" --ignore-gpu-blocklist --enable-gpu-rasterization
+exit /b
