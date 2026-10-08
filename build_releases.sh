@@ -19,7 +19,9 @@ LANGS=(
 
 # Delete existing release
 gh release delete latest --cleanup-tag -y || true
-gh release create latest -t "Latest Offline Packages" -n "이 릴리즈는 완벽하게 무설치 환경에서 구동되는 오프라인 전용 패키지입니다. 용량 절약을 위해 언어별로 별도 압축되어 있습니다. 원하시는 언어의 압축 파일을 다운로드하여 실행하세요. (모든 패키지에는 기본적으로 영어가 포함되어 있습니다.)"
+gh release create latest -t "Latest Offline Packages" -n "이 릴리즈는 완벽하게 무설치 환경에서 구동되는 오프라인 전용 패키지입니다. 용량 절약을 위해 언어별로 별도 압축되어 있습니다. 원하시는 언어의 압축 파일을 다운로드하여 실행하세요. (모든 패키지에는 기본적으로 영어가 포함되어 있습니다.)
+
+This release provides a fully offline, no-installation package. To save space, the packages are compressed separately by language. Download and extract the zip file for your preferred language. (English is included by default in all packages.)"
 
 # Prepare staging area
 rm -rf /tmp/staging
@@ -28,7 +30,7 @@ mkdir -p /tmp/staging/StreamingAssets/Locale
 
 # 1. English Only Package
 echo "Building English_Only..."
-cp -r Build TemplateData server.ps1 play.bat play.command index.html LICENSE README.md play-server.bat play-server.command /tmp/staging/
+cp -r Build TemplateData play.bat play.command index.html LICENSE README.md /tmp/staging/
 
 # Copy generic bundles
 find StreamingAssets/WebGL/ -maxdepth 1 -type f | grep -E -v '(/cscz|/dede|/elgr|/engb|/esmx|/frfr|/huhu|/jajp|/krkr|/plpl|/ruru|/zhcn|/zhtw)' | xargs -I {} cp {} /tmp/staging/StreamingAssets/WebGL/
