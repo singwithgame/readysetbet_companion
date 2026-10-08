@@ -5,6 +5,9 @@ const path = require('path');
 app.commandLine.appendSwitch('ignore-gpu-blocklist');
 app.commandLine.appendSwitch('enable-gpu-rasterization');
 app.commandLine.appendSwitch('enable-zero-copy');
+app.commandLine.appendSwitch('disable-software-rasterizer'); // 강제 하드웨어 렌더링
+app.commandLine.appendSwitch('enable-hardware-overlays'); // 하드웨어 오버레이
+app.commandLine.appendSwitch('allow-file-access-from-files'); // 로컬 파일 접근 가속
 
 function createWindow () {
   const win = new BrowserWindow({
@@ -15,7 +18,8 @@ function createWindow () {
     backgroundColor: '#231F20', // Unity 기본 다크 배경색 설정
     webPreferences: {
       nodeIntegration: false,
-      contextIsolation: true
+      contextIsolation: true,
+      backgroundThrottling: false // 포커스 잃었을 때 프레임 드랍 방지
     }
   });
 

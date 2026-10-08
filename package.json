@@ -19,7 +19,7 @@
       "icon": "TemplateData/favicon.ico"
     },
     "mac": {
-      "target": "dmg"
+      "target": "zip"
     },
     "nsis": {
       "oneClick": false,
