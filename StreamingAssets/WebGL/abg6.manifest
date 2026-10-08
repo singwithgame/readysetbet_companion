@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.5f2
+CRC: 2563199115
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ce318843c8c91df422c055043670dd58
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 04fe97b7fc2f56a12f72365bd4c81609
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b09cad37daf418140eaa8a7cf9b7d51a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/RaceData/abg6/ABG6R2.ogg
+- Assets/BundledAssets/RaceData/abg6/ABG6R3Intro.ogg
+- Assets/BundledAssets/RaceData/abg6/ABG6R2Intro.ogg
+- Assets/BundledAssets/RaceData/abg6/ABG6R1Intro.ogg
+- Assets/BundledAssets/RaceData/abg6/ABG6R4.ogg
+- Assets/BundledAssets/RaceData/abg6/ABG6R3.ogg
+- Assets/BundledAssets/RaceData/abg6/ABG6R4RollData.json
+- Assets/BundledAssets/RaceData/abg6/ABG6R2RollData.json
+- Assets/BundledAssets/RaceData/abg6/ABG6R3RollData.json
+- Assets/BundledAssets/RaceData/abg6/ABG6R1RollData.json
+- Assets/BundledAssets/RaceData/abg6/ABG6R4Intro.ogg
+- Assets/BundledAssets/RaceData/abg6/ABG6R1.ogg
+Dependencies: []

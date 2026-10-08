@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.5f2
+CRC: 2655295357
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 95d1896a7ec4823d883bf99b8301b680
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 04fe97b7fc2f56a12f72365bd4c81609
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d4c6f250978128079c2aad02f7ff8029
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R4Intro.ogg
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R1.ogg
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R3Intro.ogg
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R2.ogg
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R2Intro.ogg
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R3RollData.json
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R4.ogg
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R1RollData.json
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R3.ogg
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R2RollData.json
+- Assets/BundledAssets/RaceData/jdcg12/JDCG12R4RollData.json
+Dependencies: []

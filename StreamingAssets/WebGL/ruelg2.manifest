@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.5f2
+CRC: 3352987573
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3553fea34db7260aacb3e48180d9a3ec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 04fe97b7fc2f56a12f72365bd4c81609
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b729d2e0dc53719201d5d16569644da6
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R1Intro.ogg
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R3.ogg
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R2.ogg
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R2RollData.json
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R3RollData.json
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R1.ogg
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R4RollData.json
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R4.ogg
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R4Intro.ogg
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R1RollData.json
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R2Intro.ogg
+- Assets/BundledAssets/RaceData/ruelg2/RUELG2R3Intro.ogg
+Dependencies: []

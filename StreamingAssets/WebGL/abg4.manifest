@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.5f2
+CRC: 929186477
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0311bed6520c439b9755a849260daba6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 04fe97b7fc2f56a12f72365bd4c81609
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 49cb2b3a9a7b7c00121f9cde79798c41
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/RaceData/abg4/ABG4R2Intro.ogg
+- Assets/BundledAssets/RaceData/abg4/ABG4R1Intro.ogg
+- Assets/BundledAssets/RaceData/abg4/ABG4R2.ogg
+- Assets/BundledAssets/RaceData/abg4/ABG4R4Intro.ogg
+- Assets/BundledAssets/RaceData/abg4/ABG4R4.ogg
+- Assets/BundledAssets/RaceData/abg4/ABG4R3.ogg
+- Assets/BundledAssets/RaceData/abg4/ABG4R3RollData.json
+- Assets/BundledAssets/RaceData/abg4/ABG4R2RollData.json
+- Assets/BundledAssets/RaceData/abg4/ABG4R1.ogg
+- Assets/BundledAssets/RaceData/abg4/ABG4R3Intro.ogg
+- Assets/BundledAssets/RaceData/abg4/ABG4R4RollData.json
+- Assets/BundledAssets/RaceData/abg4/ABG4R1RollData.json
+Dependencies: []

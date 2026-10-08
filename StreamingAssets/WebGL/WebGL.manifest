@@ -1,0 +1,135 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.5f2
+CRC: 2211745941
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: esmx
+      Dependencies: {}
+    Info_1:
+      Name: engb
+      Dependencies: {}
+    Info_2:
+      Name: huhu
+      Dependencies: {}
+    Info_3:
+      Name: dede
+      Dependencies: {}
+    Info_4:
+      Name: krkr
+      Dependencies: {}
+    Info_5:
+      Name: zhcn
+      Dependencies: {}
+    Info_6:
+      Name: jajp
+      Dependencies: {}
+    Info_7:
+      Name: elgr
+      Dependencies: {}
+    Info_8:
+      Name: cscz
+      Dependencies: {}
+    Info_9:
+      Name: frfr
+      Dependencies: {}
+    Info_10:
+      Name: zhtw
+      Dependencies: {}
+    Info_11:
+      Name: jdcg7
+      Dependencies: {}
+    Info_12:
+      Name: ruru
+      Dependencies: {}
+    Info_13:
+      Name: jdcg3
+      Dependencies: {}
+    Info_14:
+      Name: jdcg14
+      Dependencies: {}
+    Info_15:
+      Name: jdcg10
+      Dependencies: {}
+    Info_16:
+      Name: abg9
+      Dependencies: {}
+    Info_17:
+      Name: jdcg1
+      Dependencies: {}
+    Info_18:
+      Name: abg1
+      Dependencies: {}
+    Info_19:
+      Name: sfx
+      Dependencies: {}
+    Info_20:
+      Name: abg5
+      Dependencies: {}
+    Info_21:
+      Name: jdcg12
+      Dependencies: {}
+    Info_22:
+      Name: abg3
+      Dependencies: {}
+    Info_23:
+      Name: abg7
+      Dependencies: {}
+    Info_24:
+      Name: ruelg3
+      Dependencies: {}
+    Info_25:
+      Name: jdcg2
+      Dependencies: {}
+    Info_26:
+      Name: abg8
+      Dependencies: {}
+    Info_27:
+      Name: ruelg1
+      Dependencies: {}
+    Info_28:
+      Name: abg10
+      Dependencies: {}
+    Info_29:
+      Name: abg4
+      Dependencies: {}
+    Info_30:
+      Name: jdcg9
+      Dependencies: {}
+    Info_31:
+      Name: abg6
+      Dependencies: {}
+    Info_32:
+      Name: ruelg2
+      Dependencies: {}
+    Info_33:
+      Name: abg2
+      Dependencies: {}
+    Info_34:
+      Name: gbgg1
+      Dependencies: {}
+    Info_35:
+      Name: jdcg4
+      Dependencies: {}
+    Info_36:
+      Name: jdcg6
+      Dependencies: {}
+    Info_37:
+      Name: jdcg15
+      Dependencies: {}
+    Info_38:
+      Name: jdcg8
+      Dependencies: {}
+    Info_39:
+      Name: jdcg5
+      Dependencies: {}
+    Info_40:
+      Name: jdcg13
+      Dependencies: {}
+    Info_41:
+      Name: jdcg11
+      Dependencies: {}
+    Info_42:
+      Name: plpl
+      Dependencies: {}

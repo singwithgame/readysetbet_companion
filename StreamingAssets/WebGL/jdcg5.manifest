@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.5f2
+CRC: 3682229648
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 73d23374f7ce9ac91846b899d1025c41
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 04fe97b7fc2f56a12f72365bd4c81609
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7893708f68d53daea32c74a4bdc23aab
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/RaceData/jdcg5/JDCG5R1.ogg
+- Assets/BundledAssets/RaceData/jdcg5/JDCG5R3RollData.json
+- Assets/BundledAssets/RaceData/jdcg5/JDCG5R2.ogg
+- Assets/BundledAssets/RaceData/jdcg5/JDCG5R1Intro.ogg
+- Assets/BundledAssets/RaceData/jdcg5/JDCG5R4.ogg
+- Assets/BundledAssets/RaceData/jdcg5/JDCG5R4RollData.json
+- Assets/BundledAssets/RaceData/jdcg5/JDCG5R3.ogg
+- Assets/BundledAssets/RaceData/jdcg5/JDCG5R2RollData.json
+- Assets/BundledAssets/RaceData/jdcg5/JDCG5R1RollData.json
+Dependencies: []

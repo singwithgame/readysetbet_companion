@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.5f2
+CRC: 1767135279
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f17af6efbe415a2121086a25676616ab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 04fe97b7fc2f56a12f72365bd4c81609
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: bbebb7166cf594957df158beff2b43e7
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R2.ogg
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R3Intro.ogg
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R1.ogg
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R3.ogg
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R4RollData.json
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R3RollData.json
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R1Intro.ogg
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R1RollData.json
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R4.ogg
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R2RollData.json
+- Assets/BundledAssets/RaceData/jdcg8/JDCG8R4Intro.ogg
+Dependencies: []

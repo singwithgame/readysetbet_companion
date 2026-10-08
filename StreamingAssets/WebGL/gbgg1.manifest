@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.5f2
+CRC: 1450927499
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a5a55c6468d1b00f026292a1c07539c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 04fe97b7fc2f56a12f72365bd4c81609
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2f8699003068017987ef0c6afd5d21ec
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R4.ogg
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R3.ogg
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R4RollData.json
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R2.ogg
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R1Intro.ogg
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R4Intro.ogg
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R3Intro.ogg
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R1RollData.json
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R1.ogg
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R2Intro.ogg
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R3RollData.json
+- Assets/BundledAssets/RaceData/gbgg1/GBGG1R2RollData.json
+Dependencies: []
