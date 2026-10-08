@@ -11,6 +11,11 @@ As web-based apps can be taken down or become inaccessible over time, this packa
 All assets, source code, designs, and audio files belong exclusively to **Alderac Entertainment Group (AEG)** and **Nomad Games**.
 This repository was created strictly for **archival, preservation, and personal offline use**. It is not intended for commercial distribution. If you are the copyright holder and wish for this archive to be removed, please open an issue and it will be taken down immediately.
 
+## 💾 Download Options
+There are two ways to download this archive:
+- **Language-Specific Packages (Recommended)**: Go to the **Releases** tab to download a lightweight ZIP file (~270MB) containing only your preferred language and English.
+- **Full Master Archive**: If you want to seamlessly switch between all 14 available languages offline, simply `git clone` this repository or click the green **Code -> Download ZIP** button. This will download the entire 500MB archive containing all language voice packs and assets.
+
 ## 🚀 How to Run (Windows)
 1. Download the language package of your choice from the **Releases** tab and extract the ZIP file.
 2. Double-click **`play.bat`** to run the app.
@@ -42,6 +47,11 @@ This repository was created strictly for **archival, preservation, and personal 
 ## ⚖️ 저작권 및 면책 조항
 본 패키지에 포함된 모든 그래픽 에셋, 소스 코드, 디자인, 오디오 파일의 저작권은 **Alderac Entertainment Group (AEG)** 및 **Nomad Games**에 귀속됩니다. 
 이 저장소는 상업적 목적이 전혀 없으며, 오로지 **개인적인 오프라인 사용 및 아카이브(보존) 목적**으로만 제작되었습니다. 원 저작권자가 삭제를 요청할 경우 즉각 조치하겠습니다.
+
+## 💾 다운로드 안내
+사용 목적에 따라 두 가지 방법으로 다운로드하실 수 있습니다:
+- **언어별 패키지 다운로드 (권장)**: **Releases** 탭에 가시면 한국어, 영어 등 원하시는 언어만 포함된 가벼운 개별 압축 파일(~270MB)을 받으실 수 있습니다.
+- **전체 마스터 아카이브 다운로드**: 게임 내 설정 창에서 14개국 언어를 자유롭게 변경하며 플레이하고 싶으시다면, 터미널에서 `git clone`을 하시거나 GitHub의 초록색 **Code -> Download ZIP** 버튼을 눌러 소스코드 전체를 통째로 다운로드하세요. 이 저장소에는 14개국의 모든 언어팩과 음성 데이터(약 500MB)가 하나도 빠짐없이 보존되어 있습니다.
 
 ## 🚀 Windows 사용 방법
 1. **Releases** 탭에서 원하시는 언어의 압축 파일을 다운로드 후 압축을 풉니다.
